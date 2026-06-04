@@ -1,0 +1,44 @@
+# === Wails build output ===
+build/bin/
+
+# === Frontend ===
+node_modules/
+frontend/dist/
+frontend/node_modules/
+
+# === Go ===
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# === IDE / Editor ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# === OS ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Env & Secrets ===
+.env
+.env.local
+.env.*.local
+
+# === Logs ===
+*.log
+logs/
+
+# === Misc ===
+*.tmp
+*.bak
+.cache/
